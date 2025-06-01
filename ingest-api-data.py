@@ -27,7 +27,7 @@ today_string = current_time_ist.strftime('%Y_%m_%d')
 def snowpark_basic_auth() -> Session:
     connection_parameters = {
        "ACCOUNT":"BRMXYFG-ZQ72391",
-       "region":"Middle East Central2 (Dammam)",
+       "region":"Middle East Central2",
         "USER":"ZFATIMA",
         "PASSWORD":"zkgkEhc5xE2uL24",
         "ROLE":"SYSADMIN",
