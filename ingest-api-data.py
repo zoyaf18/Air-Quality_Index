@@ -32,8 +32,7 @@ def snowpark_basic_auth() -> Session:
         "ROLE":"SYSADMIN",
         "DATABASE":"dev_db",
         "SCHEMA":"stage_sch",
-        "WAREHOUSE":"load_wh",
-        "HOST": "brmxyfg-zq72391.me-central-2.gcp.snowflakecomputing.com"
+        "WAREHOUSE":"load_wh"
     }
     # creating snowflake session object
     return Session.builder.configs(connection_parameters).create()
